@@ -1,0 +1,120 @@
+@font-face {
+    font-family: fingerfood;
+    src: url("./Fingerfood.otf") format("opentype");
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: cursive;
+    background-image: url("./background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: calc(100% - 6rem);
+    padding: 3rem;
+}
+
+h2 {
+    color: rgb(43 141 85);
+    font-size: 5rem;
+    font-family: fingerfood;
+}
+
+.one-control {
+    background-color: rgb(43 141 85);
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    width: 40%;
+}
+
+.section-header {
+    font-family: fingerfood;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container-button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-buttons {
+    height: 7rem;
+    width: 30rem;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    background-color: rgb(43 141 85);
+    color: white;
+    border: solid rgba(255, 217, 0, 0) 10px;
+    border-radius: 1rem;
+    font-size: 3.5rem;
+    font-family: fingerfood;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.main-buttons:hover {
+    background-color: rgb(61, 112, 64);
+    border: solid gold;
+    color: gold;
+    font-size: 4.5rem;
+    transition: 0.3s;
+}
+
+.back-buttons {
+    height: 4rem;
+    width: 12rem;
+    padding: 0.8rem;
+    background-color: rgb(43 141 85);
+    color: white;
+    border: solid rgba(255, 217, 0, 0) 3px;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-family: fingerfood;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    display:inline
+}
+
+.back-buttons:hover {
+    background-color: rgb(61, 112, 64);
+    border: solid gold;
+    color: gold;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+h2 {
+    display:inline;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
