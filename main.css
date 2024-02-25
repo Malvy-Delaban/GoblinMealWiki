@@ -39,6 +39,7 @@ h2 {
     padding: 2rem;
     margin-top: 1rem;
     width: 40%;
+    min-width: 50rem;
 }
 
 .section-header {
@@ -54,8 +55,9 @@ p {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .main-buttons {
